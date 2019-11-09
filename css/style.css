@@ -179,3 +179,46 @@ color: #C2C2C2;
     width: 75px;
     height: 24px;
 }
+
+@media (max-width: 1024px){
+    .Marketing-agency-top {
+        margin: 15.3% 0%;
+    }
+    .Marketing-agency-bottom button{
+        bottom:11px;
+    }
+    .square {
+        width: 193px;
+        height: 160px;
+        bottom: 697px;
+        left: 330px;
+    }
+
+}
+@media (max-width: 1280px) {
+    .triagle1 {
+        bottom: 127px;
+
+    }
+}
+@media (max-width: 1024px){
+    .Marketing-agency-top {
+        margin: 15.3% 0%;
+    }
+    .Marketing-agency-bottom button{
+        bottom:11px;
+    }
+    .square {
+        width: 193px;
+        height: 160px;
+        bottom: 697px;
+        left: 330px;
+    }
+
+}
+@media (max-width: 1366px){
+.square {
+    height: 203px;
+    bottom: 740px;
+}
+}
