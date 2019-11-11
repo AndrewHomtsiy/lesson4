@@ -67,14 +67,16 @@ header .content{
     padding-left: 15%;
 }
 .header-info h1{
-font-size: 110px;
+font-size: 100px;
 line-height: 132px;
 color: #032F48;
 line-height: 132px;
 }
 .header-info span {
+    position: relative;
     width: 82px;
     height: 7px;
+    bottom:50px
     background: #032e47;
 }
 .paragraph-info {
