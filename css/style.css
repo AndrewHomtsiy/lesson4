@@ -28,7 +28,7 @@ nav.navigation {
     display: inline-flex;
     justify-content: space-between;
 }
-nav a:after {
+nav.navigation a:after {
     content: '';
     position: absolute;
     border-bottom: 2px solid #000;
