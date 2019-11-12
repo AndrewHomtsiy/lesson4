@@ -15,7 +15,7 @@ header .wraper {
     justify-content: space-around;
     align-items: center;
 }
-header .wraper a {
+a {
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
@@ -23,12 +23,13 @@ line-height: 17px;
 color: #151F32;
 text-decoration: none;
 }
-nav.navigation {
-    width: 332px;
-    display: inline-flex;
-    justify-content: space-between;
+nav a {
+    margin-left: 80px;
+    padding-bottom: 3px;
+    position: relative;
 }
-nav.navigation a:after {
+
+nav a:after {
     content: '';
     position: absolute;
     border-bottom: 2px solid #000;
@@ -36,6 +37,22 @@ nav.navigation a:after {
     visibility: hidden;
     bottom: 0;
     left: 0;
+}
+
+
+nav a:hover::after {
+    animation: Appearance .3s forwards;
+}
+
+@keyframes Appearance {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 19px;
+        visibility: visible;
+    }
 }
 .wraper .account {
     width: 88px;
