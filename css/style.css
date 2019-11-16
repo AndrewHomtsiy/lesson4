@@ -208,6 +208,10 @@ color: #C2C2C2;
     width: 75px;
     height: 24px;
 }
+.Marketing-agency-bottom button:hover {
+    background-color: #032f47;
+    color: white;
+}
 @media (max-width: 1025px){
     .Marketing-agency-top {
         margin: 15.3% 0%;
