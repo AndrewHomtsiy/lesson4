@@ -140,17 +140,20 @@ width:190px;
     margin-top: 10%;
     display: inline-flex;
     justify-content: space-around;
-    width: 75px;
-    height: 50px;
-    align-items: center;
+    width: 80px;
+    height: 40px;
 }
-.rows a:before{
-width:32px;
-heigth:34px;
+.rows a svg {
+    width: 30px;
+    height: 25px;
+    fill: #FCD3AC;
 }
-.rows a img:hover {
-    width: 32px;
-    height: 34px;
+.rows a svg:hover {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    bottom: 5px;
+    fill:white;
 }
 .triagle1 {
 width: 0;
