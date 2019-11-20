@@ -257,6 +257,9 @@ color: #C2C2C2;
     height: 203px;
     bottom: 740px;
 }
+}
+@media (max-width: 1682px){
 .Marketing-agency-top {
     margin: 75px 0px 61px 0px;
+    }
 }
