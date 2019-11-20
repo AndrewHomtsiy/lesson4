@@ -139,7 +139,7 @@ width:190px;
 .rows {
     margin-top: 10%;
     display: inline-flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 80px;
     height: 40px;
 }
